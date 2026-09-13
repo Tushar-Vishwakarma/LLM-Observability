@@ -9,19 +9,19 @@ As organizations scale LLM adoption across hundreds of applications and teams, q
 - Whether one team's "good" is the same as another team's "good"
 - Who owns fixing a quality regression when it's found
 
-At scale (500+ apps, 200+ teams), this isn't a tooling gap — it's a governance gap. There's no shared language for "quality," no live signal, and no clear accountability.
+At scale (500+ apps, 200+ teams), this isn't a tooling gap, it's a governance gap. There's no shared language for "quality," no live signal, and no clear accountability.
 
 ## 2. Goal
 
-Build a centralized platform that gives every team a **live, standardized view of LLM output quality** — replacing ad hoc, offline, team-specific evaluation with continuous, comparable, organization-wide observability.
+Build a centralized platform that gives every team a **live, standardized view of LLM output quality**: replacing ad hoc, offline, team-specific evaluation with continuous, comparable, organization-wide observability.
 
 ## 3. Guiding Principles (the Three Pillars)
 
 **Data-Driven**
-Every decision — rollout, rollback, flagging a team as at-risk — is backed by a measured score, not a gut call. The platform's core value is turning "is this LLM output good?" from a subjective judgment into a number everyone agrees on.
+Every decision, rollout, rollback, flagging a team as at-risk, is backed by a measured score, not a gut call. The platform's core value is turning "is this LLM output good?" from a subjective judgment into a number everyone agrees on.
 
 **Experiment & Measure**
-Change should never ship blind. Any prompt, model, or config change gets measured against the current version, on live traffic, before it fully rolls out. Measurement isn't a one-time gate — it's continuous.
+Change should never ship blind. Any prompt, model, or config change gets measured against the current version, on live traffic, before it fully rolls out. Measurement isn't a one-time gate, it's continuous.
 
 **Ownership**
 Central teams shouldn't be the bottleneck for quality. Each team owns their own thresholds, sees their own scorecard, and gets alerted directly. Central platform provides the *infrastructure and standard*; teams own the *outcome*.
@@ -33,8 +33,8 @@ Central teams shouldn't be the bottleneck for quality. Each team owns their own 
 **Definition:** The percentage of LLM responses, across an app or the whole org, that meet a combined bar for accuracy, relevance, and safety — as measured by an automated LLM-judge, sampled continuously against live traffic.
 
 **Why this is the North Star:**
-- It's a single number leadership, teams, and engineers can all rally around — avoids the trap of optimizing one metric (e.g. low hallucination) while ignoring another (e.g. irrelevant but "safe" answers)
-- It directly reflects user trust, which is the actual business risk of ungoverned LLM outputs — not a proxy metric like "number of evals run"
+- It's a single number leadership, teams, and engineers can all rally around, avoids the trap of optimizing one metric (e.g. low hallucination) while ignoring another (e.g. irrelevant but "safe" answers)
+- It directly reflects user trust, which is the actual business risk of ungoverned LLM outputs, not a proxy metric like "number of evals run"
 - It's comparable across teams and app types, which solves the actual hard problem stated: centralizing evaluation only works if the same score means the same thing everywhere
 
 **Target: ≥95%**
