@@ -1,5 +1,5 @@
 # LLM-Observability
-<img width="400" height="220" alt="Screen Recording 2026-09-14 at 3 59 16 PM" src="https://github.com/user-attachments/assets/1759f529-b6d8-4266-959f-09d06d01ed8d" />
+<img width="800" height="800" alt="Screen Recording 2026-09-14 at 3 59 16 PM" src="https://github.com/user-attachments/assets/1759f529-b6d8-4266-959f-09d06d01ed8d" />
 
 ## 1. Problem Statement
 
